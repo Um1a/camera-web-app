@@ -33,7 +33,7 @@ takePhotoButton.onclick = function(){
 };
 
 frontCameraButton.onclick = function(){
-    frontCaemra = !frontCamera;
+    frontCamera = !frontCamera;
     if(frontCamera){
         frontCameraButton.textContent="Back Camera";
     }else{
