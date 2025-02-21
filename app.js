@@ -7,7 +7,7 @@ const
     takePhotoButton = document.querySelector("take-photo-button");
     frontCameraButton = document.querySelector("#front-camera-button");
 function cameraStart(){
-    if(typeof currentStream != 'undefined'){
+    if(typeof currentStream !== 'undefined'){
         currentStream.getTracks().forEach(track =>{
             track.stop();
         });
